@@ -8,8 +8,8 @@ const port = 3000
 /* Sean buenos y no miren la contraseña segura de la Base de datos */
 var con = mysql.createConnection({
     host: "localhost",
-    user: "workshop",
-    password: "123456",
+    user: {{USER}},
+    password: {{PASSWORD}},
     database: "workshop"
 
   });
